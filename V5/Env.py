@@ -58,7 +58,7 @@ class Env:
                 dataset = pd.DataFrame(scaler.fit_transform(OG_dataset), columns=col)
                 self.data[ticker] = dataset
                 self.og_data[ticker] = OG_dataset
-        print("fatto")
+        
 
 
 
